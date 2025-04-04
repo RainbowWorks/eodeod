@@ -4,6 +4,6 @@ $(function () {
         speed: 600,
         autoplaySpeed: 4000,
         dots: true,
-        // arrows: false,
+        //  arrows:  false,
     })
 })

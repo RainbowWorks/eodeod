@@ -23,7 +23,7 @@
 }
 
 .main_visual {
-    position: relative
+    position: relative;
 }
 
 .main_visual .slg {
@@ -68,7 +68,6 @@
     width: 40px;
     height: 40px;
 
-
     position: absolute;
     top: 50%;
     z-index: 2;
@@ -109,12 +108,16 @@
 }
 
 .main_visual .main_visual_slide .slick-dots li.slick-active button {
-    background: #f00;
+    background-color: #f00;
 }
 
 .main_content .inner {
     display: flex;
     gap: 30px;
+}
+
+.main_content .inner .itm {
+    flex: 1;
 }
 
 .main_content .inner .itm {
